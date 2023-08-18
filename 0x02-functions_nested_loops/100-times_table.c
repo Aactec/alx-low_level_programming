@@ -28,8 +28,8 @@ void print_times_table(int n)
 		else if (result <= 99 && result >= 10)
 		{
 		_putchar((result / 10) + '0');
-		}
 		_putchar('\n');
+		}
 		}
 	}
 }
