@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
  * print_number - prints an integer
@@ -7,6 +7,7 @@
  *
  * Return: always 0
  */
+
 void print_number(int n)
 {
 	unsigned int i = n;
@@ -14,6 +15,7 @@ void print_number(int n)
 	if (n < 0)
 	{
 		_putchar(45);
+
 		i = -i;
 	}
 	if (1 / 10)
