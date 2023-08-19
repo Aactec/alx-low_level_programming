@@ -21,11 +21,11 @@ int main(void)
 				putchar(j);
 				if (i == '8' && j == '9')
 				{
-					putchar(',');
+					putchar('\n');
 				}
 				else
 				{
-					putchar('\n');
+					putchar(',');
 				}
 			}
 			j++;
